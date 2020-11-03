@@ -14,10 +14,3 @@ After opening the web page, the user should navigate to the user input fields an
 If the user would like to receive different results, or results that match different search criteria, they can delete the information in the input fields from their initial search and input new information.
 
 ## Tech Used
-
-
-## Additional Information
-
-
-## License
-* MIT License
