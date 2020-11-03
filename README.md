@@ -14,18 +14,3 @@ After opening the web page, the user should navigate to the user input fields an
 If the user would like to receive different results, or results that match different search criteria, they can delete the information in the input fields from their initial search and input new information.
 
 ## Tech Used
-This web page was created using HTML, CSS, and JavaScript coding languages. Additionally, our team utilized public CSS libraries (e.g., x, y, z) to create a more aesthetically pleasing interface for the user. During the initial steps of the project, we used a wire-framing tool to create a blueprint for the web page, which helped us visualize and create a structural layout.
-Finally, our web page would not be complete without the APIs that we used. Specifically, we used…(insert API names here).
-
-
-## Additional Information
-Please click on the following links to be redirected to the GitHub profiles of the programmers who completed this project:
-Bill: (Add link to GitHub profile)
-Joseph: (Add link to GitHub profile)
-Caleb: (Add link to GitHub profile)
-Peter: (Add link to GitHub profile)
-
-## License
-* MIT License
-
-
