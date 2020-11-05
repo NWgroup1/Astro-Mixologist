@@ -4,8 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+
+
 </head>
 <body>
+    
+<header id="header" class="container-fluid">
+    <h1>GeoCast</h1>
+</header>
+
+<main class="container-fluid">
+    <section class="row">
+        <article class="col-sm-3">
+            <form class="text-center border border-dark p-5 mt-3 text-dark" action="">
+                <p class="h4 mb-4">Enter Your Search Criteria Here</p>
+            <!-- Name -->
+                <input type="text" id="defaultContactFormPod" class="form-control mb-4" placeholder="Podcast or Playlist?">
+            <!-- Email -->
+                <input type="genre" id="defaultGenreFormGenre" class="form-control mb-4" placeholder="Genre?">
+            <!-- Subject -->
+                <label>How Long is Your Commute?</label>
+                    <select class="browser-default custom-select mb-4">
+                            <option value="" disabled>Choose option</option>
+                            <option value="1" selected>Commute Length</option>
+                            <option value="2">15 Minutes?</option>
+                            <option value="3">30 Minutes?</option>
+                            <option value="4">45 Minutes?</option>
+                            <option value="5">60 Minutes?</option>       
+                    </select>
+            <!-- Copy -->
+                    <div class="custom-control custom-checkbox mb-4">
+                            <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+                            <label class="custom-control-label" for="defaultContactFormCopy">Send me this Search</label>
+                    </div>
+
+            <!-- Send button -->
+                <button class="btn btn-info btn-block btn-dark" type="submit">Send</button>
+
+            </form>
+
+
+        </article>
+        
+        <article2 class="search-results col-sm-8 back ground dark">
+            <div class="results-box bg-light p-3 m-3 w-100 border border-dark">
+                <h3>Podcast/Playlist Suggestions</h3>
+            </div>
+            
+        </article2>
+
+    </section>
+</main>
+
+
+
+
+
+</body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
     <!--1 Created readme
         2 Created wireframe
         3 Selected bootstrap alternative
@@ -19,8 +84,4 @@
         10 Connect APIs to the submit button
         11 Put API variables in the correct location
         12 Make sure results are displayed
-        13 Use modals in the App
-         
-        -->
-</body>
-</html>
+        13 Use modals in the App-->
