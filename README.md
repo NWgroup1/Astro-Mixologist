@@ -19,7 +19,9 @@ After opening the web page, the user should navigate to the user input fields, l
 If the user would like to receive different results - or results that match different search criteria - they can do so by deleting the information in the input fields from their initial search and input new information.
 
 ## Tech Used
-This web page was created using HTML, CSS, and JavaScript coding languages. Additionally, our team utilized BULMA, a public CSS library - to create a more aesthetically pleasing interface for the user. During the initial steps of the project, we used a wire-framing tool to create a blueprint for the web page, which helped us visualize and create a structural layout.
+This web page was created using HTML, CSS, and JavaScript coding languages. Additionally, our team utilized BULMA, a public CSS library - to create a more aesthetically pleasing interface for the user. During the initial steps of the project, we used a wire-framing tool to create a blueprint for the web page, which helped us visualize and create a structural layout (see image below).
+
+![GEOCAST Wireframe](https://user-images.githubusercontent.com/71603259/98319463-ced88900-1fae-11eb-901d-7880c29b7c61.GIF)
 
 Finally, our web page would not be complete without the APIs that we used. Specifically, we used the Spotify API and the Google Maps API.
 
