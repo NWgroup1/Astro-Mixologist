@@ -7,7 +7,7 @@ Do you place credence in the stars? Have you been itching to know what your zodi
 Our app utilizes three APIs to search for content based upon a user’s input criteria: TheCocktailDB, via which we can extract information pertaining to drinks; Zodiac Sign API, which returns the astrological zodiac sign for a given date; and Aztro., which provides daily horoscopes and detailed information for each sign. As mentioned above, by way of these APIs, our app enables the user to search for content based on date of birth, allowing them to locate their zodiac sign, personal horoscope, and tailored drink suggestions.
 
 ## Installation
-To access the web page, click on the following link: (Insert link here). If you have successfully reached the web page, you will see the following landing page:
+To access the web page, click on the following link: (https://nwgroup1.github.io/project1/). If you have successfully reached the web page, you will see the following landing page:
 
 (INSERT SCREENSHOT HERE)
 
@@ -21,7 +21,7 @@ If the user would like to receive different results - or results that match diff
 ## Tech Used
 This web page was created using HTML, CSS, and JavaScript coding languages. Additionally, our team utilized BULMA - a public CSS library - to create a more aesthetically pleasing interface for the user. During the initial steps of the project, we used a wire-framing tool to create a blueprint for the web page, which helped us visualize and create a structural layout.
 
-![Astro-mixologist](https://user-images.githubusercontent.com/71603259/98447360-4a8f1e80-20f2-11eb-9d98-3dd3f1e94f2f.GIF)
+![ASTROMIXOLOGIST_WIREFRAME](https://user-images.githubusercontent.com/71603259/98449869-a31be700-2105-11eb-9031-a4c673d293dc.GIF)
 
 Finally, our web page would not be complete without the APIs that we used. Specifically, we used the following APIs:
 
