@@ -12,11 +12,11 @@ To access the web page, click on the following link: (Insert link here). If you 
 (INSERT SCREENSHOT HERE)
 
 ## Usage
-This web page consists of one user interface, which is comprised of three sections: an area where the user can input the specific criteria (i.e., date of birth) and two areas where results generated via the APIs will be displayed.
+This web page consists of one user interface, which is comprised of three sections: an area where the user can select specific criteria (i.e., date of birth) and two areas where results generated via the APIs will be displayed.
 
-After opening the web page, the user should navigate to the user input fields, located on the left side of the web page, and input their date of birth. Once all the input fields have been filled out, the user can click on the submit button to retrieve results from the APIs. In a few seconds, your zodiac sign will be displayed alongside the user's horoscope and tailored drink suggestions.The user can then select a drink that appeals to them.
+After opening the web page, the user should navigate to the dropdown menu, located on the left side of the web page, and select the range in which their date of birth falls. Once the range has been selected, the user can click on the submit button to retrieve results from the APIs. In a few seconds, your zodiac sign will be displayed alongside the user's horoscope and tailored drink suggestions.The user can then select a drink that appeals to them.
 
-If the user would like to receive different results - or results that match different search criteria - they can do so by deleting the information in the input fields from their initial search and input new information.
+If the user would like to receive different results - or results that match different search criteria - they can do so by selecting a different date range and clicking on the submit button.
 
 ## Tech Used
 This web page was created using HTML, CSS, and JavaScript coding languages. Additionally, our team utilized BULMA - a public CSS library - to create a more aesthetically pleasing interface for the user. During the initial steps of the project, we used a wire-framing tool to create a blueprint for the web page, which helped us visualize and create a structural layout.
