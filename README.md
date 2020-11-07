@@ -9,7 +9,7 @@ Our app utilizes three APIs to search for content based upon a user’s input cr
 ## Installation
 To access the web page, click on the following link: (Insert link here). If you have successfully reached the web page, you will see the following landing page:
 
-![Astro-mixologist](https://user-images.githubusercontent.com/71603259/98447360-4a8f1e80-20f2-11eb-9d98-3dd3f1e94f2f.GIF)
+(INSERT SCREENSHOT HERE)
 
 ## Usage
 This web page consists of one user interface, which is comprised of three sections: an area where the user can input the specific criteria (i.e., date of birth) and two areas where results generated via the APIs will be displayed.
@@ -21,7 +21,7 @@ If the user would like to receive different results - or results that match diff
 ## Tech Used
 This web page was created using HTML, CSS, and JavaScript coding languages. Additionally, our team utilized BULMA - a public CSS library - to create a more aesthetically pleasing interface for the user. During the initial steps of the project, we used a wire-framing tool to create a blueprint for the web page, which helped us visualize and create a structural layout.
 
-(INSERT IMAGE OF THE WIREFRAME)
+![Astro-mixologist](https://user-images.githubusercontent.com/71603259/98447360-4a8f1e80-20f2-11eb-9d98-3dd3f1e94f2f.GIF)
 
 Finally, our web page would not be complete without the APIs that we used. Specifically, we used the following APIs:
 
