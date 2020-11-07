@@ -53,7 +53,7 @@
         </article>
         
         <article2 class="search-results col-sm-8 back ground dark">
-            <div class="results-box bg-light p-3 m-3 w-100 border border-dark">
+            <div id="drink-holder" class="results-box bg-light p-3 m-3 w-100 border border-dark">
                 <h3>Podcast/Playlist Suggestions</h3>
             </div>
             
@@ -73,13 +73,14 @@
 
 <script>
 
-    var queryURL = "https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=11007";
+    var queryURL = "https://www.thecocktaildb.com/api/json/v1/1/filter.php?a=Alcoholic";
 
     $.ajax({
         url: queryURL,
         method: "GET"
     }).then(function(response) {
-        console.log(response)
+        var drinkOne = $("<p>").text(response.drinks[0].strDrink);
+        $('#drink-holder').append(drinkOne)
     });
 
 </script>
