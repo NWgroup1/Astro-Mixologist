@@ -4,83 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.min.css" integrity="sha512-ZRv40llEogRmoWgZwnsqke3HNzJ0kiI0+pcMgiz2bxO6Ew1DVBtWjVn0qjrXdT3+u+pSN36gLgmJiiQ3cQtyzA==" crossorigin="anonymous"/>
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-
-
 </head>
 <body>
-
-<header id="header" class="container-fluid">
-    <h1>GeoCast</h1>
-</header>
-
-<main class="container-fluid">
-    <section class="row">
-        <article class="col-sm-3">
-            <form class="text-center border border-dark p-5 mt-3 text-dark" action="">
-                <p class="h4 mb-4">Enter Your Search Criteria Here</p>
-            <!-- Name -->
-                <input type="text" id="defaultContactFormPod" class="form-control mb-4" placeholder="Podcast or Playlist?">
-            <!-- Email -->
-                <input type="genre" id="defaultGenreFormGenre" class="form-control mb-4" placeholder="Genre?">
-            <!-- Subject -->
-                <label>How Long is Your Commute?</label>
-                    <select class="browser-default custom-select mb-4">
-                            <option value="" disabled>Choose option</option>
-                            <option value="1" selected>Commute Length</option>
-                            <option value="2">15 Minutes?</option>
-                            <option value="3">30 Minutes?</option>
-                            <option value="4">45 Minutes?</option>
-                            <option value="5">60 Minutes?</option>
-                    </select>
-            <!-- Copy -->
-                    <div class="custom-control custom-checkbox mb-4">
-                            <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
-                            <label class="custom-control-label" for="defaultContactFormCopy">Send me this Search</label>
-                    </div>
-
-            <!-- Send button -->
-                <button class="btn btn-info btn-block btn-dark" type="submit">Send</button>
-
-            </form>
-
-
-        </article>
-
-        <article2 class="search-results col-sm-8 back ground dark">
-            <div id="drink-holder" class="results-box bg-light p-3 m-3 w-100 border border-dark">
-                <h3>Podcast/Playlist Suggestions</h3>
-            </div>
-
-        </article2>
-
+    <section class="hero is-link is-bold">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">
+              Zodiac Drinks
+            </h1>
+            <h2 class="subtitle">
+              Primary subtitle
+            </h2>
+          </div>
+        </div>
       </section>
-    </main>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript"></script>
 
-    <script>
+      <section class="section">
+        <div class="container">
+            <div class="tile is-ancestor">
+                        <div class="tile is-4 is-parent">
+                            <div class="tile is-child box">
+                                <p class="title">When is your Birthday?</p>
+                                <div class="field">
+                                    <div class="control">
+                                      <input class="input is-info" type="text" placeholder="Day">
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <div class="control">
+                                      <input class="input is-info" type="text" placeholder="Month">
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <div class="control">
+                                      <input class="input is-info" type="text" placeholder="Year">
+                                    </div>
+                                </div>
+                                <Button class="submitBtn">Submit</Button>
+                            </div>
+                        </div>
 
-        var queryURL = "https://www.thecocktaildb.com/api/json/v1/1/filter.php?a=Alcoholic";
+                        <div class="tile is-vertical is-parent">
+                            <div class="tile is-child box">
+                                <p class="title">Zodiac Sign and Reading</p>
+                            </div>
 
-        $.ajax({
-            url: queryURL,
-            method: "GET"
-        }).then(function(response) {
-            var drinkOne = $("<p>").text(response.drinks[0].strDrink);
-            $('#drink-holder').append(drinkOne)
-        });
+                            <div class="tile is-child box">
+                                <p class="title">Recommended Drinks</p>
+                            </div>
+                        </div>
+            </div>
+        </div>
 
-    </script>
+    </section>
+
+
+
+      <footer class="footer notification is-link is-bold">
+        <div class="content has-text-centered">
+          <p>
+            <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+            is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+          </p>
+        </div>
+      </footer>
 
         <!--1 Created readme
             2 Created wireframe
