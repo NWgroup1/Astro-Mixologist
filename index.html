@@ -12,7 +12,7 @@
         <div class="hero-body">
           <div class="container">
             <h1 class="title">
-              Zodiac Drinks 
+              Zodiac Drinks
             </h1>
             <h2 class="subtitle">
               Primary subtitle
@@ -20,49 +20,57 @@
           </div>
         </div>
       </section>
-    
+
 
       <section class="section">
         <div class="container">
             <div class="tile is-ancestor">
-                        <div class="tile is-4 is-parent">
-                            <div class="tile is-child box">
-                                <p class="title">When is your Birthday?</p>
-                                <div class="field">
-                                    <div class="control">
-                                      <input class="input is-info" type="text" placeholder="Day">
-                                    </div>
-                                </div>
-                                <div class="field">
-                                    <div class="control">
-                                      <input class="input is-info" type="text" placeholder="Month">
-                                    </div>
-                                </div>
-                                <div class="field">
-                                    <div class="control">
-                                      <input class="input is-info" type="text" placeholder="Year">
-                                    </div>
-                                </div>
-                                <Button class="submitBtn">Submit</Button>
+                <div class="tile is-4 is-parent">
+                    <div class="tile is-child box">
+                        <p class="title">When is your Birthday?</p>
+                        <div class="field">
+                            <div class="control">
+                                <input class="input is-info" type="text" placeholder="Day">
                             </div>
                         </div>
+                        <div class="field">
+                            <div class="control">
+                                <input class="input is-info" type="text" placeholder="Month">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="control">
+                                <input class="input is-info" type="text" placeholder="Year">
+                            </div>
+                        </div>
+                        <Button class="submitBtn">Submit</Button>
+                    </div>
+                </div>
 
-                        <div class="tile is-vertical is-parent">
-                            <div class="tile is-child box">
-                                <p class="title">Zodiac Sign and Reading</p>
-                            </div>
-                            
-                            <div class="tile is-child box">
-                                <p class="title">Recommended Drinks</p>
-                            </div>
-                        </div>    
+                <div class="tile is-vertical is-parent">
+                    <div class="tile is-child box">
+                        <p class="title">Zodiac Sign and Reading</p>
+                    </div>
+
+                    <div class="tile is-child box">
+                        <p class="title">Recommended Drinks</p>
+                    </div>
+                </div>
             </div>
+            <div class="byPaul">
+                <label for="birthdayRangeSelector">Choose your birthday range</label>
+                <select name="birthdayRangeSelector" id="birthdayRangeSelector">
+                  <option value="aries" data-date-range="Aug 23 - Sep 22">Aug 23 - Sep 22</option>
+                  <option value="sagitarious">Sep 23 - Nov 22</option>
+
+                </select>
+              </div>
         </div>
 
     </section>
-    
-    
-        
+
+
+
       <footer class="footer notification is-link is-bold">
         <div class="content has-text-centered">
           <p>
@@ -73,34 +81,20 @@
         </div>
       </footer>
 
+        <!--1 Created readme
+            2 Created wireframe
+            3 Selected bootstrap alternative
+            4 Find API keys for application
+            5 Create a header for the App
+            6 Create columns and rows for content
+            7 Create input fields for the user to input podcast
+            or playlist, genre, time of playlist
+            8 Create a localstorage of the user preferences
+            9 Create on click for the submit button
+            10 Connect APIs to the submit button
+            11 Put API variables in the correct location
+            12 Make sure results are displayed
+            13 Use modals in the App-->
 </body>
 </html>
 
-<script>
-
-    var queryURL = "https://www.thecocktaildb.com/api/json/v1/1/filter.php?a=Alcoholic";
-
-    $.ajax({
-        url: queryURL,
-        method: "GET"
-    }).then(function(response) {
-        var drinkOne = $("<p>").text(response.drinks[0].strDrink);
-        $('#drink-holder').append(drinkOne)
-    });
-
-</script>
-
-    <!--1 Created readme
-        2 Created wireframe
-        3 Selected bootstrap alternative
-        4 Find API keys for application
-        5 Create a header for the App
-        6 Create columns and rows for content
-        7 Create input fields for the user to input podcast
-        or playlist, genre, time of playlist
-        8 Create a localstorage of the user preferences
-        9 Create on click for the submit button
-        10 Connect APIs to the submit button
-        11 Put API variables in the correct location
-        12 Make sure results are displayed
-        13 Use modals in the App-->
