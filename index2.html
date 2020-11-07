@@ -12,17 +12,17 @@
     <header id="header" class="container-fluid">
         <h1>Zodiac Drinks</h1>
     </header>
-    
-    
+
+
 <main class="container">
     <div class="columns">
         <div class="column">
             <div class="field">
                 <div class="control">
-                    <h2><strong>Input Your Birthday</h2></strong> 
+                    <h2><strong>Input Your Birthday</h2></strong>
                   <input class="input is-primary" type="text" placeholder="Day">
                 </div>
-              </div>
+            </div>
               <div class="field">
                 <div class="control">
                   <input class="input is-primary" type="text" placeholder="Month">
@@ -33,6 +33,14 @@
                   <input class="input is-primary" type="text" placeholder="Year">
                 </div>
               </div>
+        </div>
+        <div class="byPaul">
+          <label for="birthdayRangeSelector">Choose your birthday range</label>
+          <select name="birthdayRangeSelector" id="birthdayRangeSelector">
+            <option value="aries" data-date-range="Aug 23 - Sep 22">Aug 23 - Sep 22</option>
+            <option value="sagitarious">Sep 23 - Nov 22</option>
+
+          </select>
         </div>
         <div class="column">
             <h2><strong>Your Results</strong></h2>
@@ -45,10 +53,17 @@
               <div class="block">
                 This text is within a <strong>third block</strong>. This block has no margin at the bottom.
               </div></div>
-        </div>      
+        </div>
     </div>
-    
+    <div class="field">
+      <div class="control">
+          <h2><strong>Input TEST</h2></strong>
+        <input class="input is-primary" type="text" placeholder="test">
+      </div>
+  </div>
 </main>
-       
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
