@@ -25,38 +25,46 @@
       <section class="section">
         <div class="container">
             <div class="tile is-ancestor">
-                        <div class="tile is-4 is-parent">
-                            <div class="tile is-child box">
-                                <p class="title">When is your Birthday?</p>
-                                <div class="field">
-                                    <div class="control">
-                                      <input class="input is-info" type="text" placeholder="Day">
-                                    </div>
-                                </div>
-                                <div class="field">
-                                    <div class="control">
-                                      <input class="input is-info" type="text" placeholder="Month">
-                                    </div>
-                                </div>
-                                <div class="field">
-                                    <div class="control">
-                                      <input class="input is-info" type="text" placeholder="Year">
-                                    </div>
-                                </div>
-                                <Button class="submitBtn">Submit</Button>
+                <div class="tile is-4 is-parent">
+                    <div class="tile is-child box">
+                        <p class="title">When is your Birthday?</p>
+                        <div class="field">
+                            <div class="control">
+                                <input class="input is-info" type="text" placeholder="Day">
                             </div>
                         </div>
-
-                        <div class="tile is-vertical is-parent">
-                            <div class="tile is-child box">
-                                <p class="title">Zodiac Sign and Reading</p>
-                            </div>
-
-                            <div class="tile is-child box">
-                                <p class="title">Recommended Drinks</p>
+                        <div class="field">
+                            <div class="control">
+                                <input class="input is-info" type="text" placeholder="Month">
                             </div>
                         </div>
+                        <div class="field">
+                            <div class="control">
+                                <input class="input is-info" type="text" placeholder="Year">
+                            </div>
+                        </div>
+                        <Button class="submitBtn">Submit</Button>
+                    </div>
+                </div>
+
+                <div class="tile is-vertical is-parent">
+                    <div class="tile is-child box">
+                        <p class="title">Zodiac Sign and Reading</p>
+                    </div>
+
+                    <div class="tile is-child box">
+                        <p class="title">Recommended Drinks</p>
+                    </div>
+                </div>
             </div>
+            <div class="byPaul">
+                <label for="birthdayRangeSelector">Choose your birthday range</label>
+                <select name="birthdayRangeSelector" id="birthdayRangeSelector">
+                  <option value="aries" data-date-range="Aug 23 - Sep 22">Aug 23 - Sep 22</option>
+                  <option value="sagitarious">Sep 23 - Nov 22</option>
+
+                </select>
+              </div>
         </div>
 
     </section>
