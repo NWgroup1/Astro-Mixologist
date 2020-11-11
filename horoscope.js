@@ -15,7 +15,7 @@ $(document).ready(function(){
 
 
 
-  var sign = 'aries'
+  var sign = 'pisces' 
 
   // 'aries', 'taurus', 'gemini', 'cancer', 'leo', 'virgo', 'libra', 'scorpio', 'sagittarius', 'capricorn', 'aquarius', 'pisces'
 
