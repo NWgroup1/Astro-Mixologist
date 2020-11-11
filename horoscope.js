@@ -2,7 +2,6 @@
 $(document).ready(function(){
   $("#birthdayRangeSelector").on("change", function(e) {
     console.log($(this).val());
-
   })
 
   // var dateSignMap = {
@@ -13,16 +12,20 @@ $(document).ready(function(){
   // };
 
 
-  var signArry = ['aries', 'taurus', 'gemini', 'cancer', 'leo', 'virgo', 'libra', 'scorpio', 'sagittarius', 'capricorn', 'aquarius', 'pisces']
+
+
+
+  var sign = 'aries'
+
+  // 'aries', 'taurus', 'gemini', 'cancer', 'leo', 'virgo', 'libra', 'scorpio', 'sagittarius', 'capricorn', 'aquarius', 'pisces'
 
   // Uses API to get horoscope
-  for (var i = 0; i < signArry.length; i++) {
+  // for (var i = 0; i < signArry.length; i++) {
 
     $.ajax({
-    
 
       type:'POST',
-      url:'https://aztro.sameerkumar.website?sign=' + signArry[i] + '&day=today',
+      url:'https://aztro.sameerkumar.website?sign=' + sign + '&day=today',
       success:function(data){
       console.log(data);
 
@@ -30,16 +33,16 @@ $(document).ready(function(){
 
    });
 
-  }
+  // }
 
 
 })
 
 // when user inputs their birthday match to range of signs birth date and retrieve sign name
   //
-{
+// {
 
-}
+// }
 
 
 
