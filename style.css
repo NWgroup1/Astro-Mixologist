@@ -5,10 +5,10 @@
     body {
         background-image: url('https://static.toiimg.com/thumb/74865493.cms?width=680&height=512&imgsize=1890542');
         background-repeat: no-repeat;
-        background-attachment: fixed;  
+        background-attachment: fixed;
         background-size: cover;
     }
-    
+
 
     .footer {
         position: fixed;
