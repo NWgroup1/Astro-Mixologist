@@ -12,9 +12,15 @@ To access the web page, click on the following link: (https://nwgroup1.github.io
 ![ZODIAC DRINKS No1](https://user-images.githubusercontent.com/71603259/98760120-9961e000-23a0-11eb-9c45-7b24d12f495f.GIF)
 
 ## Usage
-This web page consists of one user interface, which is comprised of three sections: an area where the user can select specific criteria (i.e., date of birth) and two areas where results generated via the APIs will be displayed.
+This web page consists of one user interface, which is comprised of three sections: an area where the user can select specific criteria (i.e., date of birth) and two areas where results generated via the APIs will be apended and displayed.
 
-After opening the web page, the user should navigate to the dropdown menu, located on the left side of the web page, and select the range in which their date of birth falls. Once the range has been selected, the user can click on the submit button to retrieve results from the APIs. In a few seconds, your zodiac sign will be displayed alongside the user's horoscope and tailored drink suggestions.The user can then select a drink that appeals to them. Cheers!
+After opening the web page, the user should navigate to the dropdown menu, located on the left side of the web page, and select the range in which their date of birth falls. 
+
+![Drop down menu](https://user-images.githubusercontent.com/71603259/99015326-bb836b80-2522-11eb-8b6b-0af98042b94f.GIF)
+
+Once the range has been selected, the user can click on the submit button to retrieve results from the APIs. In a few seconds, your zodiac sign will be displayed alongside the user's horoscope and tailored drink suggestions.The user can then select a drink that appeals to them. Cheers!
+
+![Recommended Drinks](https://user-images.githubusercontent.com/71603259/99014827-86c2e480-2521-11eb-8f84-5a5c9ceb95f8.GIF)
 
 If the user would like to receive different results - or results that match different search criteria - they can do so by selecting a different date range and clicking on the submit button.
 
