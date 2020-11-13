@@ -15,7 +15,7 @@
         height: 100%;
         margin: 0;
       }
-      
+
       .hero-image {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.toiimg.com/thumb/74865493.cms?width=680&height=512&imgsize=1890542");
         height: 100%;
@@ -31,4 +31,8 @@
 
       .section{
           opacity: 75%;
+      }
+
+      #sign, #reading, #comp {
+        margin: 10px;
       }
