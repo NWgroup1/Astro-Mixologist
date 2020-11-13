@@ -5,7 +5,6 @@ $(function(){
 
   $("#birthdayRangeSelector").on("change", function(e) {
 
-
     sign = $(this).val()
     $(this.val).text(sign)
 
@@ -15,17 +14,30 @@ $(function(){
       url:'https://aztro.sameerkumar.website?sign=' + sign + '&day=today',
       success:function(data){
 
-        var zodiac = $("#zodiac")
+        // elements
+        var signEl = $("#sign")
+        var readingEl = $("#reading")
+        var compEl = $("#comp")
+
+        //object variable
+
         var userSign = ("Sign: " + sign)
-        var reading = ("Zodiac Reading: " + data.description)
+        var reading = ("Reading: " + data.description)
         var compatibility = ("Compatibility: " + data.compatibility)
 
-        console.log(userSign)
-        console.log(reading)
-        console.log(compatibility)
-        console.log(data);
+        appendData()
 
-        
+
+        function appendData() {
+
+
+          signEl.text(userSign)
+          readingEl.text(reading)
+          compEl.text(compatibility)
+
+
+
+        }
 
       }
 
