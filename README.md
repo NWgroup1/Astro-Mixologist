@@ -2,12 +2,12 @@
 
 
 ## Description/Motivation
-Do you place credence in the stars? Have you been itching to know what your zodiac sign is and learn more about your horoscope? Our goal for this application was to allow users to input their date of birth to identify their zodiac sign and receive a horoscope. Moreover, our application serves as a mixologist in that, alongside the user's zodiac information and horoscope, it will also provide several tailored drink suggestions based on the user's zodiac sign. Have you ever wondered what all the Capricorns are drinking? Should a Scorpio order a mojito or a whiskey on the rocks? What about an Aquarius? Whose caipirinha is that? Your significant other is a Sagittarius, take a look at some drink recommendations!  
+Do you place credence in the stars? Have you been itching to know what your zodiac sign is and learn more about your horoscope? Our goal for this application was to allow users to input their date of birth to identify their zodiac sign and receive their daily horoscope. Moreover, our application serves as a mixologist in that, alongside the user's zodiac information and horoscope, it will also provide several tailored drink suggestions based on the user's zodiac sign. Have you ever wondered what all the Capricorns are drinking? Should a Scorpio order a mojito or a whiskey on the rocks? What about an Aquarius? Whose caipirinha is that? Your significant other is a Sagittarius, take a look at some drink recommendations!
 
 Our app utilizes three APIs to search for content based upon a user’s input criteria: TheCocktailDB, via which we can extract information pertaining to drinks; Zodiac Sign API, which returns the astrological zodiac sign for a given date; and Aztro., which provides daily horoscopes and detailed information for each sign. As mentioned above, by way of these APIs, our app enables the user to search for content based on date of birth, allowing them to locate their zodiac sign, personal horoscope, and tailored drink suggestions.
 
 ## Installation
-To access the web page, click on the following link: (https://nwgroup1.github.io/project1/). If you have successfully reached the web page, you will see the following landing page:
+To access the web page, click on the following link: (https://nwgroup1.github.io/Astro-Mixologist/). If you have successfully reached the web page, you will see the following landing page:
 
 ![ZODIAC DRINKS No1](https://user-images.githubusercontent.com/71603259/98760120-9961e000-23a0-11eb-9c45-7b24d12f495f.GIF)
 
@@ -18,7 +18,7 @@ After opening the web page, the user should navigate to the dropdown menu, locat
 
 ![Drop down menu](https://user-images.githubusercontent.com/71603259/99015326-bb836b80-2522-11eb-8b6b-0af98042b94f.GIF)
 
-Once the range has been selected, the user can click on the submit button to retrieve results from the APIs. In a few seconds, your zodiac sign will be displayed alongside the user's horoscope and tailored drink suggestions.The user can then select a drink that appeals to them. Cheers!
+Once the range has been selected, the user can click on the submit button to retrieve results from the APIs. In a few seconds, the zodiac sign will be displayed alongside the daily horoscope and tailored drink suggestions.The user can then select a drink that appeals to them. Cheers!
 
 ![Recommended Drinks](https://user-images.githubusercontent.com/71603259/99014827-86c2e480-2521-11eb-8f84-5a5c9ceb95f8.GIF)
 
